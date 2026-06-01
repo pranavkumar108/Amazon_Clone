@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="amazon.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#" class = "border" id="img_back"></a>
+            <a href="#" class = "border" id="loc">
+                <p id="deliver"> Deliver to </p>
+                <div id="india"> 
+                    <i class="fa-solid fa-location-dot" style="color: rgb(255, 255, 255);"></i>
+                    <p> India </p>
+                </div>
+            </a>
+            <div class="search_menu">
+                <select id="drop_down">
+                    <option> All </option>
+                </select>
+                <input id="search_amz" type="text" placeholder="   Search Amazon">
+                <button id="go">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #0f1111;"></i>
+                </button>
+            </div>
+            <a href="#" class="border" id="lang">
+                <i class="fa-solid fa-flag-usa" id = "nav_usa_flag" style="color: rgb(255, 255, 255);"></i>
+                <select id="drop_down_lang">
+                    <option> EN </option>
+                </select>
+            </a>
+            <a href="#" class="border" id="login">
+                <p class="nav_first"> Hello, sign in </p>
+                <p class="nav_second"> Account & Lists </p>
+            </a>
+            <a href="#" class="border" id="orders">
+                <p class="nav_first"> Returns </p>
+                <p class="nav_second"> & Orders </p>
+            </a>
+            <a href="#" class="border" id="cart">
+                <i class="fa-solid fa-cart-shopping" id="cart_icon" style="color: rgb(255, 255, 255);"></i>
+                <p class="nav_second"> Cart </p>
+            </a>
+            <div id="box">
+                .
+            </div>
+        </div>
+        <div class="optionbar">
+            <a href="#" class="obar_item border" id="hamburger_menu">
+                <i class="fa-solid fa-bars" style="color: rgb(255, 255, 255);"></i>
+                <p style="font-weight: 700;"> All </p>
+            </a>
+            <a href="#" class="obar_item border">
+                <p> Today's Deals </p>
+            </a>
+            <a href="#" class="obar_item border">
+                <p> Gift Cards </p>
+            </a>
+            <a href="#" class="obar_item border">
+                <p> Sell </p>
+            </a>
+            <a href="#" class="obar_item border">
+                <p> Registry </p>
+            </a>
+            <a href="#" class="obar_item border">
+                <p> Prime Video </p>
+            </a>
+            <a href="#" class="obar_item border">
+                <p> Customer Service </p>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="hero_section">
+            <a href="#" class="hero_image"></a>
+            <div class="hero_msg">
+                You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.in/?ref=aisgw_intl_stripe_in" target="_main">Click here to go to amazon.in</a>
+            </div>
+            <div class="cards_layout">
+                <div class="cards" id="card_one">
+                    <p class="card_text">Get your game on</p>
+                    <a class="card_img_cont" id="card_img_big" href="#"></a>
+                    <a class="card_links" href="#">Shop gaming</a>
+                </div>
+                <div class="cards" id="card_two">
+                    <p class="card_text">Shop Fashion for less</p>
+                    <div class="card_img_cont">
+                        <a href="#" class="co_card co_card_one">
+                            <div class="card_img_small" style="background-image: url(Amz_pic2.jpg);"></div>
+                            <p class="card_img_text">Jeans under $50</p>
+                        </a>
+                        <a href="#" class="co_card co_card_two">
+                            <div class="card_img_small" style="background-image: url(Amz_pic3.jpg);"></div>
+                            <p class="card_img_text">Tops under $25</p>
+                        </a>
+                        <a href="#" class="co_card co_card_three">
+                            <div class="card_img_small" style="background-image: url(Amz_pic6.jpg);"></div>
+                            <p class="card_img_text">Headsets</p>
+                        </a>
+                        <a href="#" class="co_card co_card_four">
+                            <div class="card_img_small" style="background-image: url(Amz_pic4.jpg);"></div>
+                            <p class="card_img_text">Shoes under $50</p>
+                        </a>
+                    </div>
+                    <a class="card_links" href="#">See all deals</a>
+                </div>
+                <div class="cards" id="card_three">
+                    <p class="card_text">New home arrivals under $50</p>
+                    <div class="card_img_cont">
+                        <a href="#" class="co_card co_card_one">
+                            <div class="card_img_small" style="background-image: url(Amz_pic2.jpg);"></div>
+                            <p class="card_img_text">Jeans under $50</p>
+                        </a>
+                        <a href="#" class="co_card co_card_two">
+                            <div class="card_img_small" style="background-image: url(Amz_pic3.jpg);"></div>
+                            <p class="card_img_text">Tops under $25</p>
+                        </a>
+                        <a href="#" class="co_card co_card_three">
+                            <div class="card_img_small" style="background-image: url(Amz_pic6.jpg);"></div>
+                            <p class="card_img_text">Headsets</p>
+                        </a>
+                        <a href="#" class="co_card co_card_four">
+                            <div class="card_img_small" style="background-image: url(Amz_pic4.jpg);"></div>
+                            <p class="card_img_text">Shoes under $50</p>
+                        </a>
+                    </div>
+                    <a class="card_links" href="#">Shop the latest from home</a>
+                </div>
+                <div class="cards" id="card_four">
+                    <p class="card_text">Grillings must-haves for Dads</p>
+                    <div class="card_img_cont">
+                        <a href="#" class="co_card co_card_one">
+                            <div class="card_img_small" style="background-image: url(Amz_pic2.jpg);"></div>
+                            <p class="card_img_text">Jeans under $50</p>
+                        </a>
+                        <a href="#" class="co_card co_card_two">
+                            <div class="card_img_small" style="background-image: url(Amz_pic3.jpg);"></div>
+                            <p class="card_img_text">Tops under $25</p>
+                        </a>
+                        <a href="#" class="co_card co_card_three">
+                            <div class="card_img_small" style="background-image: url(Amz_pic6.jpg);"></div>
+                            <p class="card_img_text">Headsets</p>
+                        </a>
+                        <a href="#" class="co_card co_card_four">
+                            <div class="card_img_small" style="background-image: url(Amz_pic4.jpg);"></div>
+                            <p class="card_img_text">Shoes under $50</p>
+                        </a>
+                    </div>
+                    <a class="card_links" href="#">Shop Father's Day gifts</a>
+                </div>
+                <div class="cards" id="card_five">
+                    <p class="card_text">Fashion trends you like</p>
+                    <div class="card_img_cont">
+                        <a href="#" class="co_card co_card_one">
+                            <div class="card_img_small" style="background-image: url(Amz_pic2.jpg);"></div>
+                            <p class="card_img_text">Jeans under $50</p>
+                        </a>
+                        <a href="#" class="co_card co_card_two">
+                            <div class="card_img_small" style="background-image: url(Amz_pic3.jpg);"></div>
+                            <p class="card_img_text">Tops under $25</p>
+                        </a>
+                        <a href="#" class="co_card co_card_three">
+                            <div class="card_img_small" style="background-image: url(Amz_pic6.jpg);"></div>
+                            <p class="card_img_text">Headsets</p>
+                        </a>
+                        <a href="#" class="co_card co_card_four">
+                            <div class="card_img_small" style="background-image: url(Amz_pic4.jpg);"></div>
+                            <p class="card_img_text">Shoes under $50</p>
+                        </a>
+                    </div>
+                    <a class="card_links" href="#">Explore more</a>
+                </div>
+                <div class="cards" id="card_six">
+                    <p class="card_text">Shop Father's Day Deals</p>
+                    <div class="card_img_cont">
+                        <a href="#" class="co_card co_card_one">
+                            <div class="card_img_small" style="background-image: url(Amz_pic2.jpg);"></div>
+                            <p class="card_img_text">Jeans under $50</p>
+                        </a>
+                        <a href="#" class="co_card co_card_two">
+                            <div class="card_img_small" style="background-image: url(Amz_pic3.jpg);"></div>
+                            <p class="card_img_text">Tops under $25</p>
+                        </a>
+                        <a href="#" class="co_card co_card_three">
+                            <div class="card_img_small" style="background-image: url(Amz_pic6.jpg);"></div>
+                            <p class="card_img_text">Headsets</p>
+                        </a>
+                        <a href="#" class="co_card co_card_four">
+                            <div class="card_img_small" style="background-image: url(Amz_pic4.jpg);"></div>
+                            <p class="card_img_text">Shoes under $50</p>
+                        </a>
+                    </div>
+                    <a class="card_links" href="#">Explore more gifts</a>
+                </div>
+                <div class="cards" id="card_seven">
+                    <p class="card_text">Top Categories in Kitchen appliances</p>
+                    <div class="card_img_cont">
+                        <a href = "#" class="special_co_card">
+                            <div class="card_img_medium" style="background-image: url(Amz_pic5.jpg);"></div>
+                            <p class="card_img_text"> Cooker </p>
+                        </a>
+                        <a href="#" class="co_card_smallest">
+                            <div class="card_img_smallest" style="background-image: url(Amz_pic7.jpg);"></div>
+                            <p class="card_img_text"> Coofee </p>
+                        </a>
+                        <a href="#" class="co_card_smallest">
+                            <div class="card_img_smallest" style="background-image: url(Amz_pic7.jpg);"></div>
+                            <p class="card_img_text"> Cooker </p>
+                        </a>
+                        <a href="#" class="co_card_smallest">
+                            <div class="card_img_smallest" style="background-image: url(Amz_pic7.jpg);"></div>
+                            <p class="card_img_text"> Kettles </p>
+                        </a>            
+                    </div>
+                    <a class="card_links" href="#">Explore all products in kitchen</a>
+                </div>
+                <div class="cards" id="card_eight">
+                    <p class="card_text">Easy Upgrade for elevated spaces</p>
+                    <div class="card_img_cont">
+                        <a href="#" class="co_card co_card_one">
+                            <div class="card_img_small" style="background-image: url(Amz_pic2.jpg);"></div>
+                            <p class="card_img_text">Jeans under $50</p>
+                        </a>
+                        <a href="#" class="co_card co_card_two">
+                            <div class="card_img_small" style="background-image: url(Amz_pic3.jpg);"></div>
+                            <p class="card_img_text">Tops under $25</p>
+                        </a>
+                        <a href="#" class="co_card co_card_three">
+                            <div class="card_img_small" style="background-image: url(Amz_pic6.jpg);"></div>
+                            <p class="card_img_text">Headsets</p>
+                        </a>
+                        <a href="#" class="co_card co_card_four">
+                            <div class="card_img_small" style="background-image: url(Amz_pic4.jpg);"></div>
+                            <p class="card_img_text">Shoes under $50</p>
+                        </a>
+                    </div>
+                    <a class="card_links" href="#">Shop home products</a>
+                </div>
+            </div>
+        </div>
+        <div class="hz_item_bar">
+            <p> Best sellers in Home & Kitchen </p>
+            <div class="hz_img_bar">
+                <a  href="#" class = "hz_item" style="background-image: url(Amz_pic8.jpg);"></a>
+                <a  href="#" class = "hz_item" style="background-image: url(Amz_pic9.jpg);"></a>
+                <a  href="#" class = "hz_item" style="background-image: url(Amz_pic10.jpg);"></a>
+                <a  href="#" class = "hz_item" style="background-image: url(Amz_pic8.jpg);"></a>
+                <a  href="#" class = "hz_item" style="background-image: url(Amz_pic9.jpg);"></a>
+                <a  href="#" class = "hz_item" style="background-image: url(Amz_pic10.jpg);"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_panel_1">
+            Back to top
+        </div>
+        <div class="footer_panel_2">
+            <div class="footer_panel_2_section">
+                <p>Get to know us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>        
+            </div>
+            <div class="footer_panel_2_section" id="sec_4">
+                <p>Let Us Help You</p>
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a> 
+                <a>Help</a>
+            </div>
+            <div class="footer_panel_2_section">
+                <p>Get to know us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a> 
+            </div>
+            <div class="footer_panel_2_section" id="sec_4">
+                <p>Let Us Help You</p>
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a> 
+                <a>Help</a>
+            </div>
+        </div>
+        <div class="footer_panel_3">
+            <div class="footer_icon_back"></div>
+            <div class="footer_panel_3_nav">
+                <div class="footer_panel_3_nav_item">
+                    <i class="fa-solid fa-globe" style="color: rgb(255, 255, 255);"></i>
+                    <select>
+                        <option> English </option>
+                    </select>
+                </div>
+                <div class="footer_panel_3_nav_item">
+                    <i class="fa-solid fa-indian-rupee-sign" style="color: rgb(255, 255, 255);"></i>
+                    <p> INR - Indian Ruppe </p>
+                </div>
+                <div class="footer_panel_3_nav_item">
+                    <i class="fa-solid fa-flag-usa" style="color: rgb(255, 255, 255);"></i>
+                    <p> United States</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer_panel_4">
+            <div class="panel_4_content">
+                <div class="footer_content_row">
+                    <a class="footer_item">
+                        <p class="footer_item_head">Amazon Music</p>
+                        <p class="footer_item_body">Stream millions of songs</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Amazon Ads</p>
+                        <p class="footer_item_body">Reach customers wherever they spend their time</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">6pm</p>
+                        <p class="footer_item_body">Score deals on fashion brands</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Abe books</p>
+                        <p class="footer_item_body">Books, art & collectibles</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">ACX</p>
+                        <p class="footer_item_body">Audiobook Publishing Made Easy</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Sell on Amazon</p>
+                        <p class="footer_item_body">Start a Selling Account</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Amazon Music</p>
+                        <p class="footer_item_body">Shipping Software Inventory Management</p>
+                    </a>
+                </div>
+                <div class="footer_content_row">
+                    <a class="footer_item">
+                        <p class="footer_item_head">Amazon Music</p>
+                        <p class="footer_item_body">Stream millions of songs</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Amazon Ads</p>
+                        <p class="footer_item_body">Reach customers wherever they spend their time</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">6pm</p>
+                        <p class="footer_item_body">Score deals on fashion brands</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Abe books</p>
+                        <p class="footer_item_body">Books, art & collectibles</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">ACX</p>
+                        <p class="footer_item_body">Audiobook Publishing Made Easy</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Sell on Amazon</p>
+                        <p class="footer_item_body">Start a Selling Account</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Amazon Music</p>
+                        <p class="footer_item_body">Shipping Software Inventory Management</p>
+                    </a>
+                </div>
+                <div class="footer_content_row">
+                    <a class="footer_item">
+                        <p class="footer_item_head">Amazon Music</p>
+                        <p class="footer_item_body">Stream millions of songs</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Amazon Ads</p>
+                        <p class="footer_item_body">Reach customers wherever they spend their time</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">6pm</p>
+                        <p class="footer_item_body">Score deals on fashion brands</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Abe books</p>
+                        <p class="footer_item_body">Books, art & collectibles</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">ACX</p>
+                        <p class="footer_item_body">Audiobook Publishing Made Easy</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Sell on Amazon</p>
+                        <p class="footer_item_body">Start a Selling Account</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Amazon Music</p>
+                        <p class="footer_item_body">Shipping Software Inventory Management</p>
+                    </a>
+                </div>
+                <div class="footer_content_row">
+                    <a class="footer_item invisible">
+                        <p class="footer_item_head">Amazon Music</p>
+                        <p class="footer_item_body">Stream millions of songs</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Amazon Ads</p>
+                        <p class="footer_item_body">Reach customers wherever they spend their time</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">6pm</p>
+                        <p class="footer_item_body">Score deals on fashion brands</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">Abe books</p>
+                        <p class="footer_item_body">Books, art & collectibles</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item">
+                        <p class="footer_item_head">ACX</p>
+                        <p class="footer_item_body">Audiobook Publishing Made Easy</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item invisible">
+                        <p class="footer_item_head">Sell on Amazon</p>
+                        <p class="footer_item_body">Start a Selling Account</p>
+                    </a>
+                    <div class="footer_spacer"></div>
+                    <a class="footer_item invisible">
+                        <p class="footer_item_head">Amazon Music</p>
+                        <p class="footer_item_body">Shipping Software Inventory Management</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <div class="copyright_row_1">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Health Data Privacy Disclosure</a>
+                <a href="#">Your Ads Privacy Choices</a>
+            </div>
+            <p>© 1996-2026, Amazon.com, Inc. or its affiliates</p>
+        </div>
+    </footer>
+</body>
+</html>
